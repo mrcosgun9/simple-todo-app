@@ -1,5 +1,6 @@
 import { ITask } from '@/types/tasks'
 import React from 'react'
+import TaskListElement from './TaskListElement'
 interface IProps {
   tasks: ITask[]
 }
@@ -11,16 +12,13 @@ const TaskList = ({ tasks }: IProps) => {
         <thead>
           <tr>
             <th>Name</th>
-            <th>Favorite Color</th>
+            <th>Actions</th>
           </tr>
         </thead>
         <tbody>
 
           {tasks?.map(task => {
-            return <tr key={task.id}>
-              <td>Cy Ganderton</td>
-              <td>Blue</td>
-            </tr>
+            return <TaskListElement task={task} key={task.id} />
           })}
 
         </tbody>
