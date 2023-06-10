@@ -1,12 +1,8 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "text": "Yapılacak 1"
-    },
-    {
       "id": "2",
-      "text": "Yapılacak 2"
+      "text": "Yapılacak 2 dneme qwe 123"
     },
     {
       "id": "3",
@@ -19,14 +15,6 @@
     {
       "id": "5",
       "text": "ertertert"
-    },
-    {
-      "id": "30d36213-75f5-4a7b-92b0-ceb7ddf32775",
-      "text": "wer"
-    },
-    {
-      "id": "5d3638da-8233-4383-893c-523c9c464943",
-      "text": "qwe"
     }
   ]
 }

@@ -5,6 +5,7 @@ interface IProps {
   tasks: ITask[]
 }
 const TaskList = ({ tasks }: IProps) => {
+
   return (
     <div className="overflow-x-auto">
       <table className="table">
