@@ -1,11 +1,10 @@
 import { ITask } from '@/types/tasks'
 import React from 'react'
 import TaskListElement from './TaskListElement'
-interface IProps {
-  tasks: ITask[]
-}
-const TaskList = ({ tasks }: IProps) => {
+import { getAllTasks } from '@/utils/api';
 
+const TaskList = async () => {
+  const tasks = await getAllTasks();
   return (
     <div className="overflow-x-auto">
       <table className="table">
